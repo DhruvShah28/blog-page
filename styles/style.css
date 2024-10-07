@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Grand+Hotel&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+html,body{
+    margin: 0;
+    padding: 0;
+    background-color: #FBAB7E;
+    background-image: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);
+    
+    font-family: "Playfair Display", serif;
+}
+.logo{
+    font-family: "Grand Hotel", "cursive";
+    font-size: 2.5em;
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 0.5px grey solid;
+}
+
+nav ul li{
+    display: inline-block;
+    padding: 0 30px;
+    border-left: 0.5px #000000 solid;
+}
+nav ul li:nth-child(1){
+    border-left: 0;
+}
+nav ul{
+    list-style: none;
+    padding: 0;
+}
+nav li a, footer {
+    font-size: 1.25em;
+}
+a{
+    text-decoration: none;
+    color: #000000;
+}
+p a{
+    color: #3f3f3f;
+}
+a:hover{
+    color: #dc0000;
+    text-decoration: underline;
+}
+.container-main{
+    display: flex;
+}
+.container-main section{
+    border-right: 0.5px solid grey;
+    width: 70%;
+}
+
+.blog-head{
+    text-align: center;
+    padding-top: 20px;
+}
+.blog-head h1, .news-head h1{
+    font-size: 3em;
+    font-weight: normal;
+    margin: 0;
+}
+
+
+.blog-body{
+    margin: 50px;
+    border: 0.5px grey solid;
+}
+.blog-data{
+    padding: 20px 30px 0 30px;
+}
+
+aside{
+    
+    width: 30%;
+}
+.blog-head h2{
+    font-size: 2em;
+    font-weight: normal;
+    margin: 0;
+}
+.data-content ul{
+    padding-left: 18px;
+}
+.data-content ul li{
+    padding-bottom: 10px;
+}
+
+.article-box{
+    margin: 20px;
+    align-items: center;
+    border: 0.5px grey solid;
+}
+
+.art-data{
+    padding: 20px;
+}
+
+.container-news section{
+    width: 100%;
+    border-top: 0.5px grey solid;
+    border-bottom: 0.5px grey solid;
+}
+
+.news{
+    padding: 30px 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.news-form div{
+    padding-bottom: 20px;
+}
+.news-form .email{
+    font-size: 2em;
+}
+input[type=text], input[type=email], textarea{
+    width: 200px;
+    background: transparent;
+    border-top: 0;
+    border-right: 0;
+    border-left: 0;
+    border-bottom: 0.5 grey solid !important;
+}
+
+.news-form #email:focus{
+
+    background: transparent;
+    border-top: 0;
+    box-shadow: none;
+    border-right: 0;
+    border-left: 0;
+    border-bottom: 1 grey solid;
+}
+.news-form button{
+    margin-left: 20px;
+    padding: 10px;
+}
+
+
+.blog-body .blog-img-2 img {
+    box-shadow: 0px 2px 10px -1px grey;
+    margin-left: 25px;
+}
+
+.blog-body .blog-img-2 img:hover{
+    box-shadow: 0 0 0 0 ;
+}
+
+.no-border{
+    border: 0;
+}
+.socials img{
+    color: grey;
+    padding-right: 20px;
+}
+
+.add-box{
+    margin: 20px;
+    align-items: center;
+    border: 0.5px grey solid;
+    display: flex;
+}
+
+.add-box .art-img, .add-box .art-data{
+    width: 50%;
+}
+
+.hori-rule{
+    border: 0.5px grey solid;
+    margin: 70px 70px 50px 70px;
+}
+.cof-form{
+    margin: 10px 50px;
+}
+#cust-amt{
+    width: 50px;
+    margin-left: 10px;
+}
+.form-btn button{
+    width: 100%;
+    padding: 10px 0;
+    margin-top: 10px;
+}
+.cof-form fieldset{
+    margin-bottom: 10px;
+}
+
+
+
+button{
+    background: transparent;
+}
+
+button:hover{
+    background: #964B00;
+    color: #ffffff;
+}
+.container-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.form-data{
+    border: 0.5px grey solid;
+    margin: 50px 0;
+}
+.form-data div{
+    margin-bottom: 30px;
+    padding: 0 20px;
+}
+.form-data div:nth-child(1){
+    margin-top: 10px;
+}
+.form-data div:nth-child(4){
+    margin-bottom: 10px;
+}
+.form-data button{
+    padding: 2px 20px;
+}
+.container-foot{
+    display: flex;
+    justify-content: space-around;
+    border-top: 0.5px grey solid;
+    padding: 20px 0;
+}
+
+header, footer{
+    background-color: rgb(0, 0, 0, 0.2);
+}
+
+#pp:hover{
+    background-color: #000587;
+}
+
+#visa:hover{
+    background-color: #d8ea00;
+    color: #000000;
+}
+#mc:hover{
+    background-color: #ff1010;
+}
+
