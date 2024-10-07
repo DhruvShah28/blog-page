@@ -43,7 +43,6 @@ p a{
 }
 a:hover{
     color: #dc0000;
-    text-decoration: underline;
 }
 .container-main{
     display: flex;
